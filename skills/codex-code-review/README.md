@@ -24,11 +24,7 @@ One or two rounds. Codex never writes.
 
 ## Installation
 
-```bash
-npx skills add mikhin/agent-skills --skill codex-code-review
-```
-
-Or copy `SKILL.md` to `~/.claude/skills/codex-code-review/SKILL.md`.
+See the [repository README](../../README.md), or copy `SKILL.md` to `~/.claude/skills/codex-code-review/SKILL.md`.
 
 ## Requirements
 

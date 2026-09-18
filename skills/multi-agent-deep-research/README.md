@@ -17,11 +17,7 @@ Each agent writes 300-800 words. After all complete, the skill synthesizes every
 
 ## Installation
 
-```bash
-npx skills add mikhin/agent-skills --skill multi-agent-deep-research
-```
-
-Or manually copy `SKILL.md` to `~/.claude/skills/multi-agent-deep-research/SKILL.md`.
+See the [repository README](../../README.md), or copy `SKILL.md` to `~/.claude/skills/multi-agent-deep-research/SKILL.md`.
 
 ## Usage
 

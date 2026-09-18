@@ -15,11 +15,7 @@ Not a research fan-out. The roles get mutually exclusive hypotheses and must ref
 
 ## Installation
 
-```bash
-npx skills add mikhin/agent-skills --skill multi-agent-debate
-```
-
-Or copy `SKILL.md` to `~/.claude/skills/multi-agent-debate/SKILL.md`.
+See the [repository README](../../README.md), or copy `SKILL.md` to `~/.claude/skills/multi-agent-debate/SKILL.md`.
 
 ## Usage
 
