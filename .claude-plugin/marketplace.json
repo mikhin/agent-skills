@@ -1,6 +1,6 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "agent-skills",
+  "name": "mikhin-agent-skills",
   "description": "Cross-model review, adversarial consensus and multi-agent research skills for Claude Code.",
   "owner": {
     "name": "Yuri Mikhin",

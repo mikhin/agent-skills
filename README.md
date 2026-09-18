@@ -20,7 +20,7 @@ Claude Code, as a plugin:
 
 ```
 /plugin marketplace add mikhin/agent-skills
-/plugin install agent-skills@agent-skills
+/plugin install agent-skills@mikhin-agent-skills
 ```
 
 Skills then show up namespaced: `agent-skills:cx`, `agent-skills:consensus`, `agent-skills:multi-agent-research`.
