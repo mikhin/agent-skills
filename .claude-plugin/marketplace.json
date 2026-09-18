@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "mikhin-agent-skills",
-  "description": "Cross-model review, adversarial consensus and multi-agent research skills for Claude Code.",
+  "description": "AI code review by OpenAI Codex, multi-agent debate and multi-agent deep research skills for Claude Code.",
   "owner": {
     "name": "Yuri Mikhin",
     "url": "https://github.com/mikhin"
@@ -9,7 +9,7 @@
   "plugins": [
     {
       "name": "agent-skills",
-      "description": "cx: Codex reviews, Claude judges. consensus: agents argue until they agree. multi-agent-research: four angles, one report.",
+      "description": "codex-code-review: Codex reviews, Claude judges. multi-agent-debate: agents argue until they agree. multi-agent-deep-research: four angles, one report.",
       "source": "./",
       "category": "productivity"
     }

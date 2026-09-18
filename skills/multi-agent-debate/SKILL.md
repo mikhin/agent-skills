@@ -1,11 +1,11 @@
 ---
-name: consensus
-description: 'Adversarial multi-agent debate until consensus. Roles get mutually exclusive hypotheses and must refute each other; the synthesizer is the session itself (Opus) over the agents (Sonnet); exit on agreement, not on round count. Use when the answer is contested and the cost of a mistake is high: how many of what is needed, what is in scope, which option is right, what is decided versus what only looks decided. Triggers: "let the agents argue", "debate until consensus", "several rounds", "check from several sides", "adversarial", «спор агентов», «до консенсуса», «пусть поспорят», «проверь с разных сторон», «состязательно».'
+name: multi-agent-debate
+description: 'Multi-agent debate until consensus: three agents get contradicting hypotheses and must refute each other with evidence, the session judges, exit on agreement, not on round count. Adversarial review, red team and critique for contested decisions where a mistake is expensive: how many of what is needed, what is in scope, which option is right, what is decided versus what only looks decided. Triggers: "multi-agent debate", "let the agents argue", "debate until consensus", "red team this", "several rounds", "check from several sides", "adversarial", «спор агентов», «до консенсуса», «пусть поспорят», «проверь с разных сторон», «состязательно».'
 ---
 
-# Consensus — adversarial debate until convergence
+# Multi-agent debate — adversarial, until convergence
 
-Not to be confused with `multi-agent-research`: there the roles complement each other and always do a fixed run. Here the roles **contradict** each other, and a second round happens only on the items where they did not agree.
+Not to be confused with `multi-agent-deep-research`: there the roles complement each other and always do a fixed run. Here the roles **contradict** each other, and a second round happens only on the items where they did not agree.
 
 ## When not to run it
 

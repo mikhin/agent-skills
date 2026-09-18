@@ -1,7 +1,7 @@
 {
   "name": "agent-skills",
-  "version": "1.0.0",
-  "description": "Cross-model review (cx), adversarial consensus and multi-agent research skills for Claude Code.",
+  "version": "2.0.0",
+  "description": "AI code review by OpenAI Codex, multi-agent debate and multi-agent deep research skills for Claude Code.",
   "author": {
     "name": "Yuri Mikhin",
     "url": "https://github.com/mikhin"

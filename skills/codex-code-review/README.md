@@ -1,6 +1,6 @@
-# cx — Codex review for Claude Code
+# codex-code-review — your diff, reviewed by a model that didn't write it
 
-A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) skill that gets a second opinion from a different model. Claude hands the diff to [OpenAI Codex CLI](https://github.com/openai/codex), Codex reads and reports, Claude judges every finding against the code and only then edits.
+A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) skill for AI code review with a second opinion from OpenAI Codex. Claude hands the diff to [OpenAI Codex CLI](https://github.com/openai/codex), Codex reads and reports, Claude judges every finding against the code and only then edits.
 
 One or two rounds. Codex never writes.
 
@@ -25,10 +25,10 @@ One or two rounds. Codex never writes.
 ## Installation
 
 ```bash
-npx skills add mikhin/agent-skills --skill cx
+npx skills add mikhin/agent-skills --skill codex-code-review
 ```
 
-Or copy `SKILL.md` to `~/.claude/skills/cx/SKILL.md`.
+Or copy `SKILL.md` to `~/.claude/skills/codex-code-review/SKILL.md`.
 
 ## Requirements
 
@@ -38,13 +38,13 @@ Or copy `SKILL.md` to `~/.claude/skills/cx/SKILL.md`.
 ## Usage
 
 ```
-/cx
-/cx wt
-/cx commit=abc123
-/cx plan=plan.txt
+/codex-code-review
+/codex-code-review wt
+/codex-code-review commit=abc123
+/codex-code-review plan=plan.txt
 ```
 
-Or ask: "codex review", "let codex look at this".
+Or ask: "codex review", "second opinion on this diff", "let codex look at this".
 
 ## License
 

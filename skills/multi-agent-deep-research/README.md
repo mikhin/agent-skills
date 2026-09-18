@@ -1,6 +1,6 @@
-# Multi-Agent Research
+# multi-agent-deep-research — four researchers, one report, no blind spots
 
-A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) skill that spawns 4 parallel sub-agents to research any topic from multiple perspectives, then synthesizes findings into a comprehensive report.
+A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) skill for deep research: 4 parallel sub-agents research any topic from different perspectives, then one synthesised report.
 
 ## How It Works
 
@@ -18,20 +18,21 @@ Each agent writes 300-800 words. After all complete, the skill synthesizes every
 ## Installation
 
 ```bash
-npx skills add mikhin/agent-skills --skill multi-agent-research
+npx skills add mikhin/agent-skills --skill multi-agent-deep-research
 ```
 
-Or manually copy `SKILL.md` to `~/.claude/skills/multi-agent-research/SKILL.md`.
+Or manually copy `SKILL.md` to `~/.claude/skills/multi-agent-deep-research/SKILL.md`.
 
 ## Usage
 
 In Claude Code, use the slash command:
 
 ```
-/multi-agent-research
+/multi-agent-deep-research
 ```
 
 Or just ask naturally — the skill triggers on phrases like:
+- "deep research on X"
 - "research this"
 - "deep dive into X"
 - "analyze from multiple angles"
@@ -41,7 +42,7 @@ Or just ask naturally — the skill triggers on phrases like:
 ## Example
 
 ```
-> /multi-agent-research
+> /multi-agent-deep-research
 
 What topic would you like me to research?
 

@@ -1,6 +1,6 @@
-# consensus — adversarial multi-agent debate for Claude Code
+# multi-agent-debate — three agents argue over the answer, you get the survivor
 
-A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) skill for questions where the sources disagree and a missed item costs more than a second look: how many endpoints a feature needs, what is in scope, which of two readings of a spec is right, what was actually decided versus what only looks decided.
+A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) skill for adversarial multi-agent debate: for questions where the sources disagree and a missed item costs more than a second look: how many endpoints a feature needs, what is in scope, which of two readings of a spec is right, what was actually decided versus what only looks decided.
 
 Not a research fan-out. The roles get mutually exclusive hypotheses and must refute each other. The session (Opus) is the judge over Sonnet agents; the debate ends on agreement, not after a fixed number of rounds.
 
@@ -16,18 +16,18 @@ Not a research fan-out. The roles get mutually exclusive hypotheses and must ref
 ## Installation
 
 ```bash
-npx skills add mikhin/agent-skills --skill consensus
+npx skills add mikhin/agent-skills --skill multi-agent-debate
 ```
 
-Or copy `SKILL.md` to `~/.claude/skills/consensus/SKILL.md`.
+Or copy `SKILL.md` to `~/.claude/skills/multi-agent-debate/SKILL.md`.
 
 ## Usage
 
 ```
-/consensus
+/multi-agent-debate
 ```
 
-Or ask: "let the agents argue", "debate until consensus", "check from several sides".
+Or ask: "let the agents argue", "debate until consensus", "red team this", "check from several sides".
 
 ## Requirements
 

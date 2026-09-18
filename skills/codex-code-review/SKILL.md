@@ -1,9 +1,9 @@
 ---
-name: cx
-description: Fast cross-model review via OpenAI Codex CLI — a branch diff, the working tree, a commit or a txt plan. One or two rounds, Codex only reads, Claude judges. A lighter alternative to consensus when you need one look from another model, not a debate. Triggers — "codex review", "let codex look at this", "/cx", «пусть codex посмотрит», «codex ревью».
+name: codex-code-review
+description: 'Code review by OpenAI Codex, judged by Claude. A second opinion on a branch diff, the working tree, a commit or a plan from a model that did not write it: Codex reads and reports, Claude verifies every finding against the code, then edits. One or two rounds, Codex never writes. Cross-model AI code review, lighter than a debate. Triggers — "codex review", "codex code review", "second opinion", "let codex look at this", "/codex-code-review", «пусть codex посмотрит», «codex ревью».'
 ---
 
-# Codex review
+# Codex code review
 
 Codex reads, Claude judges. Codex writes nothing.
 

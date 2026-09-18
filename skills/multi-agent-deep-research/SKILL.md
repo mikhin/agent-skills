@@ -1,9 +1,9 @@
 ---
-name: multi-agent-research
-description: Spawn multiple parallel sub-agents to investigate, research, analyze, and critique a topic in depth. Use this skill whenever the user wants deep research, multi-perspective analysis, investigation, or critical examination of any topic. Triggers on phrases like "research this", "investigate", "deep dive", "analyze from multiple angles", "multi-agent research", "critique this idea", "explore this topic", or any request that would benefit from parallel research agents examining a subject from different perspectives. Even casual requests like "what do you think about X from all angles" or "give me a thorough breakdown of Y" should trigger this skill.
+name: multi-agent-deep-research
+description: 'Deep research by four parallel agents: investigator, analyst, critic and devil''s advocate each research the topic from their angle, then one synthesised report with agreements, tensions, risks and next steps. Multi-agent research for any topic that deserves more than one perspective. Triggers on "deep research", "research this", "investigate", "deep dive", "analyze from multiple angles", "multi-agent research", "critique this idea", "explore this topic", "what do you think about X from all angles", "give me a thorough breakdown of Y".'
 ---
 
-# Multi-Agent Research
+# Multi-agent deep research
 
 This skill spawns **4 parallel sub-agents**, each with a distinct role, to deeply research a user-provided topic. Results are synthesized into a final comprehensive report.
 
