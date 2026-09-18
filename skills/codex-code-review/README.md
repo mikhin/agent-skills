@@ -24,7 +24,7 @@ One or two rounds. Codex never writes.
 
 ## Installation
 
-See the [repository README](../../README.md), or copy `SKILL.md` to `~/.claude/skills/codex-code-review/SKILL.md`.
+Install via [skills.sh](https://skills.sh/mikhin/agent-skills), the command is on the package page. Or copy `SKILL.md` to `~/.claude/skills/codex-code-review/SKILL.md`.
 
 ## Requirements
 
