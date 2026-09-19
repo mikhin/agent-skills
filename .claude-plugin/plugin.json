@@ -1,6 +1,6 @@
 {
   "name": "agent-skills",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "AI code review by OpenAI Codex, multi-agent debate and multi-agent deep research skills for Claude Code.",
   "author": {
     "name": "Yuri Mikhin",
