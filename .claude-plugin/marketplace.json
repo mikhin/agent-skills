@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "mikhin-agent-skills",
-  "description": "AI code review by OpenAI Codex, multi-agent debate and multi-agent deep research skills for Claude Code.",
+  "description": "AI code review by OpenAI Codex, multi-agent debate, multi-agent deep research and a build-low, verify-high effort loop for Claude Code.",
   "owner": {
     "name": "Yuri Mikhin",
     "url": "https://github.com/mikhin"
@@ -9,7 +9,7 @@
   "plugins": [
     {
       "name": "agent-skills",
-      "description": "codex-code-review: Codex reviews, Claude judges. multi-agent-debate: agents argue until they agree. multi-agent-deep-research: four angles, one report.",
+      "description": "codex-code-review: Codex reviews, Claude judges. multi-agent-debate: agents argue until they agree. multi-agent-deep-research: four angles, one report. build/verify: build at low effort, verify at high.",
       "source": "./",
       "category": "productivity"
     }
