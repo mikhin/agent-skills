@@ -1,7 +1,7 @@
 {
   "name": "agent-skills",
-  "version": "2.0.1",
-  "description": "AI code review by OpenAI Codex, multi-agent debate and multi-agent deep research skills for Claude Code.",
+  "version": "2.1.0",
+  "description": "AI code review by OpenAI Codex, multi-agent debate, multi-agent deep research and a build-low, verify-high effort loop for Claude Code.",
   "author": {
     "name": "Yuri Mikhin",
     "url": "https://github.com/mikhin"
