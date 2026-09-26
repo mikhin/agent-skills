@@ -8,7 +8,7 @@
     },
     {
       "title": "Effort loop",
-      "description": "Build at low effort, verify at high.",
+      "description": "Build at medium effort, verify at high.",
       "skills": ["effort-advisor", "build", "verify"]
     }
   ]

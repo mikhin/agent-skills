@@ -1,6 +1,6 @@
 # agent-skills
 
-Claude Code skills for getting a second opinion before you trust the first one — AI code review by another model, multi-agent debate, multi-agent deep research — and an effort loop that builds cheap and verifies hard.
+Claude Code skills for getting a second opinion before you trust the first one — AI code review by another model, multi-agent debate, multi-agent deep research — and an effort loop that builds at medium and verifies at high.
 
 | Skill | What it does |
 | --- | --- |
@@ -8,14 +8,14 @@ Claude Code skills for getting a second opinion before you trust the first one �
 | [`multi-agent-debate`](skills/multi-agent-debate) | Three agents get contradicting hypotheses and must refute each other. Exit on agreement, you get the survivor. |
 | [`multi-agent-deep-research`](skills/multi-agent-deep-research) | Four researchers on one topic, one report, no blind spots. |
 | [`effort-advisor`](skills/effort-advisor) | Recommends an effort level for the task in one or two lines. |
-| [`build`](skills/build) | `/build`: implements a spec in one pass at low effort, lists its assumptions. |
+| [`build`](skills/build) | `/build`: implements a spec in one pass at medium effort, lists its assumptions. |
 | [`verify`](skills/verify) | `/verify`: at high effort — reproduce, adversarial review, randomized tests, reverted-fix check, large inputs. |
 
 ## Effort loop
 
 `grill-me` → `/build` → review → `/verify`
 
-`grill-me` turns an idea into a spec, `/build` implements it fast and lists what it assumed, you review the assumptions, `/verify` hunts the edge cases. `/build` and `/verify` set their effort level themselves, for their own reply only. Higher effort finds missed edge cases; a wrong approach is caught at review.
+`grill-me` turns an idea into a spec, `/build` reads the code it touches, implements the spec in one pass and lists what it assumed, you review the assumptions, `/verify` hunts the edge cases. `/build` and `/verify` set their effort level themselves, for their own reply only. Higher effort finds missed edge cases; a wrong approach is caught at review.
 
 ## Install
 
