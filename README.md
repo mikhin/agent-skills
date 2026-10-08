@@ -28,8 +28,8 @@ npx skills add mikhin/agent-skills
 Claude Code, as a plugin:
 
 ```
-/plugin marketplace add mikhin/agent-skills
-/plugin install agent-skills@mikhin-agent-skills
+/plugin marketplace add mikhin/claude-plugins
+/plugin install agent-skills@mikhin
 ```
 
 Skills then show up namespaced: `agent-skills:codex-code-review`, `agent-skills:multi-agent-debate`, `agent-skills:multi-agent-deep-research`, `agent-skills:build`, `agent-skills:verify`.
